@@ -1,0 +1,264 @@
+
+/*for full body*/
+body{
+	background: linear-gradient(rgba(0,0,50,0.5), rgba(0,0,50,0.5)), url(images/background.jpg);
+	background-size:cover;
+	font-family: sans-serif;
+
+}
+
+
+.contact{
+	margin: 0;
+	text-align: center;	
+	background-position: center;
+
+	}
+
+.contact-title{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+	font-family: Coronetscript, cursive;
+}
+
+.contact-title h2{
+	font-size: 16px;
+	font-family: times new Roman;
+
+}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	color: #fff;
+}
+
+.form-control{
+	width:500px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+
+}
+input{
+	height: 45px;
+}
+
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height:50px;
+	margin-top: 20px; 
+	font-family: new Times Roman;
+}
+
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+
+
+/*navigation bar*/
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    /*background-color: #001f3f;*/
+}
+
+
+.navli {
+    float: right;
+}
+
+.navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+.navli a:hover {
+    background-color: #001f3f;
+}
+
+
+.visit-us{
+	color: #fff;
+	float:right;
+	margin-right: 5em;
+
+}
+
+.about{
+	color: #fff;
+
+}
+
+.link-cv{
+	font-weight: bold;
+	font-size: 20px;
+	color:#f44336;
+}
+
+.myself1{
+	width: 300px;
+	height: 250px;
+}
+
+.main-about{
+	margin-right: 15em;
+	margin-left: 15em;
+	margin-top: 1em;
+}
+
+.about-title{
+	text-align: center;
+	color: #fff;
+	font-family: Coronetscript, cursive;
+}
+
+figcaption{
+	text-align: center;
+	color:#f44336;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.projects-main{
+	color: #fff;
+	margin-right: 15em;
+	margin-left: 15em;
+	margin-top: 3em;
+}
+
+.contact-us-title{
+	font-family: Coronetscript, cursive;
+}
+
+.moving-text{
+	font-weight: bold;
+	font-size: 30px;
+	color:#f44336;
+	font-style: italic;
+}
+
+.projects-title{
+	text-align: center;
+	color: #fff;
+	font-family: Coronetscript, cursive;
+}
+.address{
+	text-align: center;
+}
+.logo{
+	float: left;
+	height: 80px;
+	width: 150px;
+}
+.barner{
+	color: #fff;
+	text-align: center;
+
+}
+
+.container{
+	color: #fff;
+	padding-top: 8em;
+	font-weight: bold;
+}
+
+.dev-title{
+	color:#f44336;
+}
+
+.main-button{
+	background-color: transparent;
+	border-radius: 12px;
+	border: 2px solid #fff;
+	font-family: new Times Roman;
+	font-size: 25px;
+}
+
+.me-title{
+	font-weight: bold;
+	font-size: 60px;
+	font-family: Coronetscript, cursive;
+	padding-top: 1em;
+}
+
+.me-title1{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: new Times Roman;	
+}
+
+.statement{
+	color: #fff;
+	font-family: Times New Roman, serif;
+	padding-top: 10em;
+	text-align: center;
+}
+
+/* for footer */
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background:transparent;
+}
+
+#lab_social_icon_footer a {
+  color: #f44336;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
